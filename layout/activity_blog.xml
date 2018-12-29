@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/cosmos1"
+    tools:context=".Blog">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:text="LATEST BLOG WRITINGS"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="365dp"
+        android:layout_height="495dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="283dp"
+                android:layout_height="262dp"
+                android:layout_marginTop="45dp"
+                app:srcCompat="@drawable/geek1" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:clickable="true"
+                android:text="READ MORE : https://astrogeekzco.com/2018/12/22/six-amazing-facts-about-the-first-image-of-a-black-hole/"
+
+                android:textColor="@android:color/background_light"
+                android:textColorLink="@color/colorPrimaryDark" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="45dp"
+                app:srcCompat="@drawable/geek2" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:clickable="true"
+                android:text="READ MORE : https://astrogeekzco.com/2018/12/10/how-would-our-universe-look-like-from-the-fourth-dimension/"
+
+                android:textColor="@android:color/background_light"
+                android:textColorLink="@color/colorPrimaryDark" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="45dp"
+                app:srcCompat="@drawable/geek3" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:clickable="true"
+                android:text="READ MORE : https://astrogeekzco.com/2018/12/19/our-universe-is-expanding-but-what-is-it-expanding-into/"
+
+                android:textColor="@android:color/background_light"
+                android:textColorLink="@color/colorPrimaryDark" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="45dp"
+                app:srcCompat="@drawable/geek4" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:clickable="true"
+                android:text="READ MORE: https://astrogeekzco.com/2018/12/18/why-is-neptune-so-blue-in-color/"
+
+                android:textColor="@android:color/background_light"
+                android:textColorLink="@color/colorPrimaryDark" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="45dp"
+                app:srcCompat="@drawable/geek5" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:clickable="true"
+                android:text="READ MORE : https://astrogeekzco.com/2018/12/07/how-do-objects-behave-at-absolute-zero-temperature/"
+
+                android:textColor="@android:color/background_light"
+                android:textColorLink="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:autoLink="web"
+                android:clickable="true"
+                android:text="For More Interesting Topics.....Click Here : https://astrogeekzco.com/"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textColorLink="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

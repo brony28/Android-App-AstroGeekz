@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_blog"
+            android:title="Blog" />
+        <item
+            android:id="@+id/nav_video"
+            android:title="Videos" />
+        <item
+            android:id="@+id/nav_giveaway"
+            android:title="Give Away" />
+        <item
+            android:id="@+id/nav_fact"
+            android:title="Facts,Memes and more" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_media"
+                android:title="Social Media" />
+
+            <item
+                android:id="@+id/nav_contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_signout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

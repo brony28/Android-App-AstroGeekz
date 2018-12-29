@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AstroGeekz</string>
+    <string name="title_activity_astro_page">AstroPage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="celestron">
+        <a href="https://www.youtube.com/watch?v=6lRPsSApHEo">Celestron PowerSeeker 40AZ</a>
+    </string>
+    <string name="mova">
+        <a href="https://www.youtube.com/watch?v=6lRPsSApHEo">Mova Globes</a>
+    </string>
+    <string name="facty">
+        <a href="https://www.instagram.com/astrogeekz/?hl=en">Click Here For More</a>
+    </string>
+    <string name="facebook">
+        <a href="https://www.facebook.com/astrogeekz/">FACEBOOK</a>
+    </string>
+    <string name="instagram">
+        <a href="https://www.instagram.com/astrogeekz/?hl=en">INSTAGRAM</a>
+    </string>
+    <string name="twitter">
+        <a href="https://twitter.com/astrogeekz1?lang=en">TWITTER</a>
+    </string>
+    <string name="youtube">
+        <a href="https://www.youtube.com/channel/UCUSizZK1dLCjJmuSLfGYrXw">YOUTUBE</a>
+    </string>
+
+
+</resources>
